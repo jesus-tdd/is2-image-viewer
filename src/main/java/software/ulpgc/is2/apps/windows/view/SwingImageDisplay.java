@@ -72,7 +72,7 @@ public class SwingImageDisplay extends JPanel implements ImageDisplay {
     @Override
     public void paint(Graphics g) {
         for (Paint paint : paints) {
-            g.getColor(colors.get(paint.id));
+            g.setColor(colors.get(paint.id));
             g.fillRect(paint.offset, 0, 800, 600);
         }
     }
