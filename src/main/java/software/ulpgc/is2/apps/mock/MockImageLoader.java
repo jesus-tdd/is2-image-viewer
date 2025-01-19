@@ -1,6 +1,5 @@
 package software.ulpgc.is2.apps.mock;
 
-import software.ulpgc.is2.architecture.ImagePresenter;
 import software.ulpgc.is2.architecture.model.Image;
 import software.ulpgc.is2.architecture.persistence.ImageLoader;
 
